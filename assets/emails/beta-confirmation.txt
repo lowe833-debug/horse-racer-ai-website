@@ -1,0 +1,16 @@
+Hello {{name}},
+
+Thanks for signing up for the Horse Racer AI beta! We received your registration for {{device}}.
+
+What to expect:
+- We’ll review applications and select testers in waves.
+- If selected, you’ll receive a TestFlight invitation at {{email}} with setup steps.
+- We’ll ask for feedback and bug reports during testing.
+
+Submitted: {{timestamp}}
+
+If you didn’t sign up, contact us: {{support_email}}
+
+Learn more: {{testflight_info_url}}
+
+— Horse Racer AI

@@ -1,0 +1,24 @@
+/* Simple full-page spinner overlay */
+#site-spinner.site-spinner {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.9);
+  z-index: 9999;
+}
+.site-spinner .spinner {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 6px solid #e9ecef;
+  border-top-color: #28a745;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* hide by default when JS removes it */
+.site-spinner.hidden { display: none !important; }

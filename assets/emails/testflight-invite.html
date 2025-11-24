@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Your TestFlight Invitation — Horse Racer AI</title>
+    <style>
+      body { background:#f4f6f8; margin:0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
+      .wrap { max-width:600px; margin:28px auto; background:#fff; border-radius:8px; overflow:hidden; }
+      .top { background:#0d6efd; color:#fff; padding:18px 24px; }
+      .top h1{margin:0;font-size:18px}
+      .content { padding:20px 24px; color:#111; font-size:16px; }
+      .btn { display:inline-block; background:#0d6efd; color:#fff; padding:10px 14px; border-radius:6px; text-decoration:none; }
+      .muted { color:#6c757d; font-size:14px; }
+      .footer { background:#f8f9fa; padding:14px 20px; text-align:center; color:#6c757d; font-size:13px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <h1>You're invited to test Horse Racer AI</h1>
+      </div>
+
+      <div class="content">
+        <p>Hi {{name}},</p>
+
+        <p>Good news — you’ve been selected to join an upcoming testing wave for Horse Racer AI. Tap the button below from your iOS device to open TestFlight and accept the invite.</p>
+
+        <p style="text-align:center; margin:18px 0;"><a class="btn" href="{{testflight_link}}">Open TestFlight Invitation</a></p>
+
+        <p class="muted">If the button doesn’t work, open TestFlight on your device and paste this invitation code:</p>
+        <p style="font-family:monospace; font-size:16px; text-align:center;">{{invite_code}}</p>
+
+        <p>Once installed, please try the app and send feedback to <a href="mailto:{{feedback_email}}">{{feedback_email}}</a>. Include device model and iOS version when reporting issues.</p>
+
+        <hr style="border:none;border-top:1px solid #eef0f2;margin:20px 0;">
+        <p class="small">Invite issued: {{timestamp}} • Expires: {{expiry}}</p>
+      </div>
+
+      <div class="footer">
+        Horse Racer AI • <a href="{{privacy_url}}">Privacy Policy</a>
+      </div>
+    </div>
+  </body>
+</html>

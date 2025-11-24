@@ -1,0 +1,7 @@
+horse-ai/
+email-test-server/
+.vscode/
+node_modules/
+*.zip
+.env
+.DS_Store

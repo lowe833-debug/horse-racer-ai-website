@@ -1,0 +1,14 @@
+Hi {{name}},
+
+You’ve been selected to test Horse Racer AI. Open this link on your iOS device to accept the TestFlight invite:
+
+{{testflight_link}}
+
+If the link won’t open, use this invite code in TestFlight: {{invite_code}}
+
+Please send feedback to: {{feedback_email}} (include device model + iOS version)
+
+Invite issued: {{timestamp}}
+Expires: {{expiry}}
+
+— Horse Racer AI
